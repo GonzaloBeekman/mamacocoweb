@@ -14,76 +14,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Estilos para la barra de navegación */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3em;
-    background-color: orange;
-    z-index: 1000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: top 0.3s ease-in-out; /* Transición para ocultar y mostrar */
-}
-
-/* Ocultar la barra de navegación cuando hagas scroll */
-header.hidden {
-    top: -100px; /* Mueve la barra de navegación hacia arriba cuando se oculta */
-}
-
-header .logo {
-    width: 250px; 
-    height: 100px;
-}
-
-header .logo img {
-    height: 80px; 
-}
-
-header ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
-
-header ul li {
-    margin-left: 25px; 
-}
-
-header ul li a {
-    text-decoration: none;
-    padding: 15px 25px; 
-    color: #333;
-    font-size: 20px; 
-    transition: 0.3s ease;
-    display: block;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-header ul li a:hover {
-    color: white;
-}
-
-.boton {
-    color: #f4f4f4;
-    background-color: #e16f11;
-    border-radius: 10px; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 1, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el zoom y la sombra */
-}
-
-.boton:hover {
-    transform: scale(1.05); /* Aplica el zoom a toda la tarjeta */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra para dar efecto de profundidad */
-}
-
 /* Separador ajustado */
 .separador {
     width: 100%;
@@ -92,22 +22,6 @@ header ul li a:hover {
     margin-top: 120px; /* Mayor margen para que quede debajo del header */
     position: relative; /* Asegura que se coloque correctamente en relación con el header */
     z-index: 1; /* El z-index más bajo asegura que el header esté por encima */
-}
-
-/* Barra de navegación fija */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 3em;
-    background-color: orange;
-    z-index: 1000; /* Asegura que el header esté por encima de todo */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Ajuste para el cuerpo del contenido */
@@ -119,12 +33,6 @@ header {
     align-items: center;
     text-align: center;
 }
-
-.recetas h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
 .recetas p {
     font-size: 1.2em;
     margin-bottom: 40px;
